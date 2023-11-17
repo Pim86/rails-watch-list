@@ -1,0 +1,11 @@
+<h1 class=''>Movie Lists</h1>
+
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= link_to list.name, list_path(list.id) %>
+      <%= link_to 'Remove a list', list_path(list.id), data: { turbo_method: 'delete' } %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New list", new_list_path %>
