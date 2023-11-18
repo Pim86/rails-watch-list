@@ -1,7 +1,19 @@
 .banner {
   width: 100%;
-  background-image: url('https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=2000&t=st=1700230715~exp=1700231315~hmac=f3b5382cdd388630efd55aca9ef4c6d78fd056fe2b27432a79b0e1a169706d93');
+  background-image: url('movie1.2.jpeg');
+  
+  opacity: 0.9;
   height: 405px;
   background-color: rgba(75, 1, 15, 0.443);
   background-position: center;
+
+  h1 {
+    font: $headers-font;
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    padding:150px 0;
+    text-align: center;
+  }
 }
